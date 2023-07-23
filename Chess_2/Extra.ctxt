@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Extra
+comment0.text=\r\n\ Esta\ la\ cre\u00E9\ para\ que\ no\ me\ de\ problemas\ en\ el\ futuro\ con\ los\ "Null".\ No\ hace\ \r\n\ nada,\ pero\ si\ no\ la\ creaba\ me\ daba\ problemas\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Extra\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=2

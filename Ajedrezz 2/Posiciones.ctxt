@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Posiciones
+comment0.text=\r\n\ The\ class\ Position\ is\ used\ to\ be\ able\ to\ build\ a\ Position\ from\ a\ pair\ of\r\n\ coordinates\ or\ from\ a\ given\ Piece\ and\ to\ compare\ a\ Position\ with\ a\ pair\r\n\ of\ coordinates\ or\ with\ the\ one\ of\ a\ given\ Piece.\r\n\ @author\ Kevin\ Wehde\r\n\ @version25\ 19.11.2020\r\n
+comment1.params=x\ y
+comment1.target=Posiciones(int,\ int)
+comment2.params=p
+comment2.target=Posiciones(greenfoot.Actor)
+comment3.params=x\ y
+comment3.target=boolean\ correspondsTo(int,\ int)
+comment4.params=p
+comment4.target=boolean\ correspondsTo(Posiciones)
+comment5.params=
+comment5.target=int\ getX()
+comment6.params=
+comment6.target=int\ getY()
+numComments=7

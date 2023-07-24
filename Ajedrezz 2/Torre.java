@@ -8,8 +8,8 @@ public class Torre extends Piezas
 {
     Torre(int cd) {
         super(cd);  
-        if (this.cd == 1) setImage("TorreNegra.png");
-        else setImage("TorreBlanca.png");
+        if (this.cd == 1) setImage("TorreN.png");
+        else setImage("TorreB.png");
     }
 
     public List<Posiciones> getLegalPositions(){

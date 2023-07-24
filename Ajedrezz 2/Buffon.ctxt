@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Buffon
+comment0.text=\r\n\r\n
+comment1.params=cd
+comment1.target=Buffon(int)
+comment2.params=
+comment2.target=java.util.List\ getLegalPositions()
+numComments=3

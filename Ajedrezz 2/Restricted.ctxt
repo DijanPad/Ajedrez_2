@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Restricted
+comment0.text=\r\n\r\n
+comment1.params=
+comment1.target=Restricted()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=p\ cd
+comment3.target=boolean\ select(Piezas,\ int)
+comment4.params=
+comment4.target=void\ MovimientosLegales()
+comment5.params=
+comment5.target=void\ movePiece()
+comment6.params=
+comment6.target=void\ Cambiar()
+comment7.params=p
+comment7.target=void\ Comer(Piezas)
+comment8.params=p
+comment8.target=void\ NoSelec(Piezas)
+comment9.params=
+comment9.target=void\ QuitarMarcado()
+numComments=10

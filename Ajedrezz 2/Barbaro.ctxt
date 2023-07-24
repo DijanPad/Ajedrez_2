@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Barbaro
+comment0.text=\r\n\r\n
+comment1.params=cd
+comment1.target=Barbaro(int)
+comment2.params=
+comment2.target=java.util.List\ getLegalPositions()
+comment3.params=p
+comment3.target=void\ move(Posiciones)
+numComments=4

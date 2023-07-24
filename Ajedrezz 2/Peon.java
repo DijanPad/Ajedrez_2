@@ -10,8 +10,8 @@ public class Peon extends Piezas {
 
     Peon(int cd) {
         super(cd);  
-        if (this.cd == 1) setImage("PeonNegro.png");
-        else setImage("PeonBlanco.png");
+        if (this.cd == 1) setImage("PeonN.png");
+        else setImage("PeonB.png");
     }
 
     public List<Posiciones> getLegalPositions(){

@@ -8,8 +8,8 @@ public class Rey extends Piezas
 {
     Rey(int cd) {
         super(cd);  
-        if (cd == 1) setImage("ReyNegro.png");
-        else setImage("ReyBlanco.png");
+        if (cd == 1) setImage("ReyN.png");
+        else setImage("reyB.png");
     }
    
     public List<Posiciones> getLegalPositions(){

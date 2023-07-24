@@ -7,8 +7,8 @@ public class Caballo extends Piezas
 {
     Caballo(int cd) {
         super(cd);  
-        if (this.cd == 1) setImage("CaballoNegro.png");
-        else setImage("CaballoBlanco.png");
+        if (this.cd == 1) setImage("CaballoN.png");
+        else setImage("CaballoB.png");
     }
   
     public List<Posiciones> getLegalPositions(){

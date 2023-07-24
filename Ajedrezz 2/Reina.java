@@ -7,8 +7,8 @@ import java.util.ArrayList;
 public class Reina extends Piezas {
     Reina(int cd) {
         super(cd);  
-        if (this.cd == 1) setImage("ReinaNegra.png");
-        else setImage("ReinaBlanca.png");
+        if (this.cd == 1) setImage("ReinaN.png");
+        else setImage("ReinaB.png");
     }
      
     public List<Posiciones> getLegalPositions(){

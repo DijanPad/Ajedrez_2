@@ -9,8 +9,8 @@ public class Alfil extends Piezas {
     
     Alfil(int cd) {
         super(cd);  
-        if (this.cd == 1) setImage("AlfilNegro.png");
-        else setImage("AlfilBlanco.png");
+        if (this.cd == 1) setImage("AlfilN.png");
+        else setImage("AlfilB.png");
     }
  
     public List<Posiciones> getLegalPositions(){

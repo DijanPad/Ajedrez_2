@@ -13,30 +13,27 @@ public class Restricted extends World {
 
     public Restricted() {    
         super(8, 8, 50); 
-        for (int i = 0; i < 8; i++) {
-            addObject(new Peon(1), i, 1);
-        }
-        addObject(new Torre(1), 0, 0);
-        addObject(new Torre(1), 7, 0);
+        
+        
         addObject(new Caballo(1), 1, 0);
-        addObject(new Caballo(1), 6, 0);
-        addObject(new Alfil(1), 2, 0);
-        addObject(new Alfil(1), 5, 0);
-        addObject(new Reina(1), 3, 0);
+        addObject(new Torre(1), 6, 0);
+        addObject(new Peon(1), 6, 3);
+        addObject(new Peon(1), 4, 3);
+        addObject(new Peon(1), 2, 3);
+        addObject(new Peon(1), 0, 3);
+        addObject(new Reina(1), 5, 2);
+        addObject(new Alfil(1), 3, 2);
         addObject(new Rey(1), 4, 0);
 
-        for (int i = 0; i < 8; i++) {
-            addObject(new Peon(-1), i, 6);
-        }
-        addObject(new Torre(-1), 0, 7);
-        addObject(new Torre(-1), 7, 7);
         addObject(new Caballo(-1), 1, 7);
-        addObject(new Caballo(-1), 6, 7);
-        addObject(new Alfil(-1), 2, 7);
-        addObject(new Alfil(-1), 5, 7);
-        addObject(new Reina(-1), 3, 7);
+        addObject(new Torre(-1), 6, 7);
+        addObject(new Peon(-1), 6, 4);
+        addObject(new Peon(-1), 4, 4);
+        addObject(new Peon(-1), 2, 4);
+        addObject(new Peon(-1), 0, 4);
+        addObject(new Reina(-1), 5, 5);
+        addObject(new Alfil(-1), 3, 5);
         addObject(new Rey(-1), 4, 7);
-        
         isPieceSelected = false;
         PiezaSelec = new Extra();
         Turno = 1; //Black starts
